@@ -20,4 +20,4 @@ any = any([0,0,1]);
 print(any);
 
 all = all([1,2,3,4,5,6,7,8,9]);
-print(all)
+print(all);

@@ -1,2 +1,2 @@
 age = int(input("Enter your age : "));
-print(age);
+print(f"i m {age} years old");
