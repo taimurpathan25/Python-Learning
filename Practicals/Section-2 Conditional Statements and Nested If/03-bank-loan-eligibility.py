@@ -6,7 +6,6 @@ income = int(input("Enter your monthly income: "))
 if age >= 21 and income >= 25000:
 
     credit_score = int(input("Enter your credit score: "))
-
     if credit_score >= 750:
         print("Loan Approved")
         interest_rate = 8.0
