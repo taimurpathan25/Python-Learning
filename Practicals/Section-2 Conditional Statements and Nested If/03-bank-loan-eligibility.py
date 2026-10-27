@@ -1,11 +1,11 @@
 # Bank Loan Eligibility Program
 
-age = int(input("Enter your age: "))
-income = int(input("Enter your monthly income: "))
+age = int(input("Enter your age: "));
+income = int(input("Enter your monthly income: "));
 
 if age >= 21 and income >= 25000:
 
-    credit_score = int(input("Enter your credit score: "))
+    credit_score = int(input("Enter your credit score: "));
     if credit_score >= 750:
         print("Loan Approved")
         interest_rate = 8.0
