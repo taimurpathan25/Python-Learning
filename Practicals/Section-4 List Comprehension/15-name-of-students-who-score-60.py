@@ -1,4 +1,4 @@
-# Question 15: Find names of students who scored 60 or more.     
+# Find names of students who scored 60 or more.     
  
 students = [
         {"name": "Amit", "marks": 75},
