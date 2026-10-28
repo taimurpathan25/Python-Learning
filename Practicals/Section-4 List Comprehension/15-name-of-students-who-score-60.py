@@ -7,7 +7,7 @@ students = [
         {"name": "Rohit", "marks": 55}     
 ]
 passed_students = [student["name"] for student in students if student["marks"] >= 60]
-print(f"Students who scored 60 or more: {passed_students}") 
+print(f"Students who scored 60 or more: {passed_students}")
 
 
 # output: 
