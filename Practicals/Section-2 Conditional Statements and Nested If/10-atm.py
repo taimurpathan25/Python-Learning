@@ -4,9 +4,9 @@ if correct_pin != 1234:
     print("Incorrect PIN !, Again Enter Correct PIN")
 
 else:
-    active_account = input("Your Account is Active? (Yes/No) : ");
+    active_account = input("Your Account is Active? (yes/no) : ");
 
-    if active_account != "Yes":
+    if active_account != "yes":
         print("Account is Not Active")
 
     else:
@@ -40,3 +40,14 @@ else:
             balance -= amount_withdrawal
             print("Withdrawal Successful !")
             print("Remaining Balance : ", balance)
+            
+            
+            
+# output:
+# Enter your Pin : 1234
+# Your Account is Active? (yes/no) : yes
+# Enter Amount for Withdrawal : 30000
+# Extra Verification Required !
+# Enter OTP for Verification : 4545
+# Withdrawal Successful !
+# Remaining Balance :  20000
