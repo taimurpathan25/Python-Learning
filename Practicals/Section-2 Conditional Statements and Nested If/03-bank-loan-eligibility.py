@@ -48,3 +48,21 @@ if age >= 21 and income >= 25000:
 
 else:
     print("Loan Rejected")
+    
+
+
+# output:
+# Enter your age: 25
+# Enter your monthly income: 55000
+# Enter your credit score: 782
+# Loan Approved
+# Enter loan amount: 2000000
+# Enter loan duration in years: 2
+# ----- Loan Details -----
+# Interest Rate: 8.0 % per year
+# Loan Amount: 2000000.0
+# Loan Duration: 2 years
+# Monthly EMI: 90454.58
+# Total Interest: 170909.99
+# Total Payment: 2170909.99
+# Loan will be completed after 2 years.
