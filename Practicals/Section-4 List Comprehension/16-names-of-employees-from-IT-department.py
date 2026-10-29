@@ -9,3 +9,6 @@ employees = [
 ]   
 it_employees = [employee["name"] for employee in employees if employee["department"] == "IT"]
 print(f"Employees from the IT department: {it_employees}") 
+
+# output:
+#     Employees from the IT department: ['Amit', 'Neha']
