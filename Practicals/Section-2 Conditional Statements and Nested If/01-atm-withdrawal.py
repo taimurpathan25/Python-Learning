@@ -19,3 +19,10 @@ if pin == correct_pin:
         print("Please enter the amount in multiples of 100.")
 else:
     print("Invalid PIN")
+
+
+# output:
+# Enter your PIN: 0000
+# Enter the amount to withdraw: 25000
+# Withdrawal successful! Please collect your cash.
+# Current balance: 25000 
