@@ -17,3 +17,10 @@ if age>=18:
         print("You are not eligible,\n bcs, You don't have learners license");
 else:
     print("You are not eligible ,\n bcs, Your age is less than 18");
+    
+
+# output:
+# Enter your age : 25 
+# Do your have a learners license? (yes/no) : yes
+# Enter your Driving test score : 98
+# You are eligible for a driving license
