@@ -18,3 +18,8 @@ else:
     if bill > 3000:
         bill += bill * 10/100;
         print("After Included 10% Surcharge \nnow! your bill is : ", bill);
+        
+        
+# output:
+#      Enter the units consumed: 250
+# Your 10 Rs Per unit bill is: 2500
