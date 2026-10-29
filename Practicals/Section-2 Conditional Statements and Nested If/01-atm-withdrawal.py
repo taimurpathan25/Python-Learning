@@ -25,4 +25,4 @@ else:
 # Enter your PIN: 0000
 # Enter the amount to withdraw: 25000
 # Withdrawal successful! Please collect your cash.
-# Current balance: 25000 
+# Current balance: 25000.
