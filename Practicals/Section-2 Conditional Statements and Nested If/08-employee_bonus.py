@@ -31,3 +31,11 @@ if experience >= 1:
 
 else:
     print("You are not eligible for bonus")
+    
+    
+# output:
+# Enter your experience in years: 2    
+# Enter your salary: 35000
+# Enter your performance score: 8  
+# Bonus Rate: 5%
+# Bonus Amount: 1750.0
