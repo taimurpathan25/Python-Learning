@@ -32,3 +32,13 @@ if input_username == valid_username:
         print("Wrong Password")
 else:
     print("Invalid Username")
+    
+    
+    
+    
+    
+# output:
+# Enter your username: user123
+# Enter your password: pass@123
+# Enter your role (admin/teacher/student): admin
+# Welcome Admin! You have full access.
