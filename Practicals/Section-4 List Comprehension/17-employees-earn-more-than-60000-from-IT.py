@@ -8,3 +8,8 @@ employees = [
 ]
 it_employees_earning_more = [employee["name"] for employee in employees if employee["department"] == "IT" and employee["salary"] > 60000]
 print(f"Employees from IT earning more than ₹60,000: {it_employees_earning_more}")
+
+
+
+# output:
+# Employees from IT earning more than ₹60,000: ['Neha']
