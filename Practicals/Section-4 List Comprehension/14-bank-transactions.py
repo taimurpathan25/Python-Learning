@@ -5,3 +5,8 @@ deposits = [transaction for transaction in transactions if transaction > 0]
 withdrawals = [transaction for transaction in transactions if transaction < 0]
 print(f"Deposits: {deposits}")
 print(f"Withdrawals: {withdrawals}")
+
+
+# output:
+# Deposits: [5000, 3000, 7000]
+# Withdrawals: [-2000, -1000, -500]
