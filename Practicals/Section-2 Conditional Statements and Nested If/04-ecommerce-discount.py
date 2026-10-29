@@ -26,3 +26,11 @@ else:
         print("You are not eligible for any discount.")
 final_amount = cart_amount - discount
 print(f"Final amount after discount: ₹{final_amount:.2f}")
+
+
+
+# output:
+# Enter the cart amount: 25000
+# Are you a premium member? (yes/no): yes
+# Congratulations! You are eligible for a 20% discount. Your discount amount is: ₹5000.00
+# Final amount after discount: ₹20000.00
