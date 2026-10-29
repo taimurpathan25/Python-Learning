@@ -18,3 +18,11 @@ if subject1 >= 40 and subject2 >= 40 and subject3 >= 40:
 else:
     print("Fail")
 
+
+
+# output:
+# Enter the marks for subject 1: 75
+# Enter the marks for subject 2: 85
+# Enter the marks for subject 3: 95
+# Percentage :  85.0
+# Distinction
