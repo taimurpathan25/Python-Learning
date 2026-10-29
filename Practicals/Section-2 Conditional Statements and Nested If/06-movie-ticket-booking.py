@@ -28,3 +28,9 @@ if requested_seats <= total_seats:
         print("You are not eligible for any discount. Your final price is: Rs", final_price)
 else:
     print("House Full")
+    
+    
+# output:
+# Enter the number of seats you want to book: 2
+# Enter your age: 25
+# You are not eligible for any discount. Your final price is: Rs 200.0
