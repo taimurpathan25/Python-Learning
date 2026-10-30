@@ -24,3 +24,8 @@ else:
         bill = bill + (bill * 10 / 100)
     print("Total Electicity Bill : ₹",bill);   
     
+    
+    
+# output:
+# Enter Electricity Units Consumed: 250
+# Total Electicity Bill : ₹ 2500
