@@ -8,9 +8,9 @@
 # - Performance >= 90 -> 15% bonus 
 # - Otherwise -> 5% bonus
 
-experience = int(input("Enter Experience in Years: "))
+experience = float(input("Enter Experience in Years: "))
 salary = float(input("Enter Salary: "))
-performance = int(input("Enter Performance Score: "))
+performance = float(input("Enter Performance Score: "))
 
 if experience >= 1 and salary >= 50000:
     if performance >= 90:
@@ -31,3 +31,12 @@ else:
 
 print("Employee Bonus: ₹", bonus)
 print("Total Salary: ₹", salary + bonus)
+
+
+
+# output:
+# Enter Experience in Years: 2.3
+# Enter Salary: 35000
+# Enter Performance Score: 8.8
+# Employee Bonus: ₹ 1750.0
+# Total Salary: ₹ 36750.0
