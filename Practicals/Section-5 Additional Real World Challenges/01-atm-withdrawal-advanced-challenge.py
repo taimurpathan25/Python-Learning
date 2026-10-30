@@ -40,4 +40,22 @@ else:
         balance -= amount
         print("Withdrawal successful!")
         print("Remaining balance: ₹", balance)
+        
+        
+# output :
+# Enter Your PIN : 1234
+# Enter withdrawal Amount (₹): 35000
+# InSufficient Balance !
+
+# Enter Your PIN : 1234
+# Enter withdrawal Amount (₹): 15000
+# Withdrawal successful!
+# Remaining balance: ₹ 10000
+
+# Enter Your PIN : 1234
+# Enter withdrawal Amount (₹): 1
+# Amount must be a Multiple of 100
+
+# Enter Your PIN : 1245
+# Invalid Pin!
     
