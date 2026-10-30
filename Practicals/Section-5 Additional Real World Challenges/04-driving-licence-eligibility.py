@@ -16,3 +16,13 @@ elif score < 60:
     print("Not Eligible: Driving test score must be 60 or above.")
 else:
     print("Eligible for Driving License!")
+    
+    
+    
+# output:
+# Enter your age: 25
+# Do you have a learner license? (yes/no): yes
+# Enter driving test score: 95
+# Eligible for Driving License!
+
+
