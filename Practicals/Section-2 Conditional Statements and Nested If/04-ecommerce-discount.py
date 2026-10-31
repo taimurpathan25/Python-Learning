@@ -13,19 +13,19 @@ is_premium_member = input("Are you a premium member? (yes/no): ").strip().lower(
 if cart_amount >= 5000:
     if is_premium_member == "yes":
         discount = cart_amount * 0.20
-        print(f"Congratulations! You are eligible for a 20% discount. Your discount amount is: ₹{discount:.2f}")
+        print(f"Congratulations! You are eligible for a 20% discount. Your discount amount is: ₹{discount}")
     else:
         discount = cart_amount * 0.10
-        print(f"You are eligible for a 10% discount. Your discount amount is: ₹{discount:.2f}")
+        print(f"You are eligible for a 10% discount. Your discount amount is: ₹{discount}")
 else:
     if is_premium_member == "yes":
         discount = cart_amount * 0.05
-        print(f"Congratulations! You are eligible for a 5% discount. Your discount amount is: ₹{discount:.2f}")
+        print(f"Congratulations! You are eligible for a 5% discount. Your discount amount is: ₹{discount}")
     else:
         discount = 0.0
         print("You are not eligible for any discount.")
 final_amount = cart_amount - discount
-print(f"Final amount after discount: ₹{final_amount:.2f}")
+print(f"Final amount after discount: ₹{final_amount}")
 
 
 
