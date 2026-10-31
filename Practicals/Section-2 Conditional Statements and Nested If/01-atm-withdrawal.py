@@ -1,9 +1,9 @@
 # write the  python program for ATM withdrawal.
 
-correct_pin = "0000"
+correct_pin = 0000
 balance = 50000
 
-pin = input("Enter your PIN: ")
+pin = int(input("Enter Your Pin : "))
 
 if pin == correct_pin:
     amount = int(input("Enter the amount to withdraw: "))
